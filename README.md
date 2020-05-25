@@ -2,7 +2,6 @@
 
 This project we processed the “real time” data and then dumped it in a manner that facilitates querying and further analysis.
 
-## It is broken into three parts:
 ### Infrastructure 
 
 ##### DataCollector Lambda configuration page
@@ -18,9 +17,10 @@ This project we processed the “real time” data and then dumped it in a manne
 https://fd5z0s487d.execute-api.us-east-2.amazonaws.com/default/project-collector
 
 ### Data collection
-We the yfinance module (documentation here), grabing pricing information for each of the following stocks:
-Facebook (FB), Shopify (SHOP), Beyond Meat (BYND), Netflix (NFLX),Pinterest (PINS), Square (SQ), The Trade Desk (TTD), Snap (SNAP), Datadog (DDOG)
+We use the yfinance module (documentation here), grabing pricing information for each of the following stocks:
+Facebook (FB), Shopify (SHOP), Beyond Meat (BYND), Netflix (NFLX),Pinterest (PINS), Square (SQ), The Trade Desk (TTD), Snap (SNAP), Datadog (DDOG).
+
 We collect one full day’s worth of stock HIGH and LOW prices for each company listed above on Thursday, May 14th 2020, at an one minute interval. 
 
 ### Data analysis
-We ran AWS Athena queries to do analysis.
+AWS Athena and Glue crawler
