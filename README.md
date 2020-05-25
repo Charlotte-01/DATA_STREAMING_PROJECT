@@ -5,7 +5,7 @@ https://fd5z0s487d.execute-api.us-east-2.amazonaws.com/default/project-collector
 
 #### DataCollector Lambda configuration page
 
-![img](https://github.com/Charlotte-01/DATA_STREAMING_PROJECT/Lambda_configuration_page.png)
+![img](https://github.com/Charlotte-01/DATA_STREAMING_PROJECT/blob/master/Lambda.png)
 
 #### Kinesis Data Firehose Delivery Stream Monitoring
 
